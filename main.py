@@ -9,8 +9,6 @@ image_paths = []
 for file in directory:
     image_paths.append(os.path.join(DATASET_FOLDER, file))
 
-print(image_paths)
-
 cascade_stop_sign = cv.CascadeClassifier('cascade_stop_sign.xml')
 
 def detect(image_path: str):
