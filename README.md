@@ -30,3 +30,5 @@ Kodu çalıştıralım:
 ```bash
 python main.py
 ```
+
+Not: `cascade_stop_sign.xml` dosyasını [buradan](https://github.com/EshginGuluzade/stop_sign_detection) aldım.
